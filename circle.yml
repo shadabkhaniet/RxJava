@@ -5,7 +5,7 @@ general:
 
 test:
   override:
-    - gradlew test
+    - ./gradlew test
 
 teardown:
     post:
