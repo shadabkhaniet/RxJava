@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: rx.internal.operators.OperatorSwitchTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.895 sec
