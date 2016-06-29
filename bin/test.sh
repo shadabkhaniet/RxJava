@@ -26,5 +26,6 @@ done
 #mvn clean -Dtest=${tests} test
 #mvn -Dtest=${tests} test jacoco:report coveralls:report
 
-mvn  -Dtest=${tests} test 
+mvn test
+#mvn  -Dtest=${tests} test 
 #mvn  -Dtest=${tests} test jacoco:report coveralls:report
