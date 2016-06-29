@@ -5,8 +5,8 @@ general:
 
 test:
   override:
-    - ./gradlew test
-
+        - ./bin/test.sh:
+            parallel: true
 teardown:
     post:
         - curl \-\-data "APP_VERSION=${CIRCLE_BUILD_NUM}" https://manageacloud.com/trigger/YOUR_TRIGGER_HASH
